@@ -194,21 +194,27 @@ body {
     flex-grow: 1;
 }
 
-.hero {
+.hero-content-container {
     margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.hero-container {
-    background-color: #f6f6f6;
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
 }
 
 .link {
-    display: flex;
+    margin: 0;
+    padding-top: 20px;
     margin-bottom: 10px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     line-height: 26px;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .text {
@@ -219,18 +225,28 @@ body {
     font-size: 16px;
 }
 
+.hero-img {
+    margin-top: auto;
+    margin-bottom: 18px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.hero-icons-img {
+    margin-right: 10px;
+}
+
+.icon-text {
+    margin: 0;
+}
+
+/* Section */
 
 .heroo {
     margin-bottom: 60px;
-}
-
-.hero-main-container {
-    width: 1050px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    background-color: #ffe4c4;
-    border-radius: 10px;
 }
 
 .list {
@@ -268,16 +284,24 @@ body {
     color: #F78B3B;
 }
 
+.hero-main-container {
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    width: 1050px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* Section */
+
 .herro {
     margin-bottom: 100px;
 }
 
 .section {
     display: flex;
-}
-
-.herro-content {
-    display: flex;
+    align-items: center;
 }
 
 .h1 {
@@ -290,7 +314,7 @@ body {
     margin-bottom: 10px;
     width: 797px;
     height: 205px;
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     border-radius: 15px;
 }
 
@@ -315,8 +339,23 @@ body {
     margin-right: 15px;
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    width: 393px;
+    padding: 20px 17px 15px;
+
+}
+
 .itemm {
     background-color: #F6F6F6;
+    border-radius: 15px;
+    width: 797px;
+    height: 205px;
 }
 
 .linkk {
@@ -344,13 +383,25 @@ body {
 
 .h {
     padding-top: 20px;
+    padding-left: 17px;
 }
+
+.linnk {
+    padding-right: 65px;
+    padding-left: 17px;
+}
+
+.texxt {
+    padding-left: 17px;
+}
+
+/* Section */
 
 .bc {
     width: 796px;
     height: 53px;
     background-color: #EAEAEA;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .h3 {
@@ -433,4 +484,17 @@ body {
     font-weight: 300;
     line-height: 23px;
     font-size: 18px;
+}
+
+.hero-icons {
+    display: flex;
+    align-items: center;
+}
+
+.main-h1 {
+    margin-right: auto;
+}
+
+.main-icon {
+    margin-right: 25px;
 }
