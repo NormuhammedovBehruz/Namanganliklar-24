@@ -94,6 +94,21 @@ body {
   color: #2959ce;
 }
 
+/* Global search */
+
+.global-search {
+  width: 220px;
+  margin-right: 25px;
+  
+}
+
+.global-input {
+  border-color: transparent;
+  border-radius: 60px;
+  height: 36px;
+  padding: 15px 1px 13px 41px;
+}
+
 .language-toogle {
   background-color: #dce6ff;
   padding: 3px;
