@@ -56,6 +56,7 @@ body {
 }
 
 .site-logo {
+  display: flex;
   padding: 9px 6px;
   background-color: #fff;
   margin-right: 35px;
@@ -68,6 +69,10 @@ body {
 
 .site-logo:active {
   opacity: 0.6;
+}
+
+.site-logoo {
+  object-fit: contain;
 }
 
 .site-logo-img {
@@ -478,6 +483,7 @@ body {
 }
 
 .footer-img {
+  object-fit: contain;
   margin-bottom: 15px;
 }
 

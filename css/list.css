@@ -286,6 +286,7 @@ body {
 
 .iteem {
     margin-top: 60px;
+    margin-bottom: 10px;
     background-color: #f6f6f6;
     padding: 20px 17px 25px 17px;
     border-radius: 15px;
@@ -340,6 +341,7 @@ body {
 }
 
 .footer-img {
+    object-fit: contain;
     margin-bottom: 15px;
 }
 
