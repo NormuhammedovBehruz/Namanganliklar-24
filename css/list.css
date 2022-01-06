@@ -284,11 +284,10 @@ body {
     line-height: 19px;
 }
 
-.hero-container {
+.iteem {
     margin-top: 60px;
     background-color: #f6f6f6;
-    padding-left: 17px;
-    padding-top: 20px;
+    padding: 20px 17px 25px 17px;
     border-radius: 15px;
 }
 
@@ -316,7 +315,7 @@ body {
 }
 
 .rectangle {
-    width: 359px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -326,8 +325,6 @@ body {
     height: 553px;
     border-radius: 15px;
 }
-
-/* Footer */
 
 /* Footer */
 
