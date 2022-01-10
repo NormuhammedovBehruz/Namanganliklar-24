@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 /* Global */
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -14,7 +22,12 @@ html {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -51,7 +64,11 @@ body {
 }
 
 .site-header-top-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -71,7 +88,10 @@ body {
 }
 
 .site-logo-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -o-object-fit: contain;
     object-fit: contain;
 }
 
@@ -82,6 +102,8 @@ body {
 .correcy-list {
     margin: 0;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
 }
@@ -111,6 +133,8 @@ body {
 .language-toogle {
     background-color: #dce6ff;
     padding: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border-radius: 39px;
     margin-right: 25px;
@@ -141,6 +165,8 @@ body {
     color: #fff;
     border-radius: 10px;
     border: 2px solid transparent;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
     transition: color 0.5s;
 }
 
@@ -166,7 +192,10 @@ body {
 .sitenav-list {
     margin: 0;
     padding: 0;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
 }
@@ -186,6 +215,8 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #7f7f7f;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
     transition: color 0.5s;
 }
 
@@ -205,7 +236,11 @@ body {
 }
 
 .new {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -283,6 +318,8 @@ body {
     color: #fff;
     border-radius: 10px;
     border: 2px solid transparent;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
     transition: color 0.5s;
     margin-left: 550px;
 }
@@ -297,10 +334,13 @@ body {
 }
 
 .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .footer-img {
+    -o-object-fit: contain;
     object-fit: contain;
     margin-bottom: 15px;
 }
@@ -323,6 +363,8 @@ body {
 }
 
 .site-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -338,6 +380,8 @@ body {
     text-decoration: none;
     color: #fff;
     margin-right: 100px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 
@@ -364,7 +408,11 @@ body {
 }
 
 .hero-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
