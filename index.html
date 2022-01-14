@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NAMANGANLIKLAR 24</title>
   <!-- Css -->
-  <!-- <link rel="stylesheet" href="css/normlize.css" />
+  <link rel="stylesheet" href="css/normlize.css" />
   <link rel="stylesheet" href="css/main.css" /> -->
-  <link rel="stylesheet" href="css/main.min.css">
+  <!--  <link rel="stylesheet" href="css/main.min.css"> -->
   <!-- Font famly -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -210,7 +210,7 @@
         <h1 class="list">
           Хотите быть в курсе свежих новостей? Включите уведомления!
         </h1>
-        <a class="main-button button-warning" href="#">Включит</a>
+        <button class="main-button button-warning">Включит</button>
       </div>
     </section>
 
@@ -395,6 +395,20 @@
       </div>
     </section>
   </footer>
+
+
+  <div class="modal hidden">
+    <!-- <img src="images/Vector.svg" alt="rasm" width="14" height="14"> -->
+    <h1 class="modal-heading">
+      Хотите быть в курсе свежих новостей? Включите уведомления!
+    </h1>
+    <button id="mainbutton" href="#">Включит</button>
+  </div>
+  <div class="overlay hidden"></div>
+
+
+  <!-- js -->
+  <script src="app.js"></script>
 </body>
 
 </html>
