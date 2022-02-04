@@ -60,7 +60,7 @@ body {
     background-color: #f6f6f6;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .site-header-top-container {
@@ -241,6 +241,9 @@ body {
 /* Main */
 
 .main-content {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     margin-bottom: 100px;
 }
 
@@ -284,6 +287,7 @@ body {
     font-size: 20px;
     line-height: 26px;
     color: #000000;
+    text-decoration: none;
 }
 
 .icons {
@@ -391,14 +395,6 @@ body {
     margin-bottom: 15px;
 }
 
-.footer-img:hover {
-    opacity: 0.8;
-}
-
-.footer-img:active {
-    opacity: 0.6;
-}
-
 .ttext {
     margin-right: 203px;
     margin-bottom: 71px;
@@ -429,15 +425,6 @@ body {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-}
-
-.site-footer-link:hover {
-    color: #f78b3b;
-    opacity: 0.8;
-}
-
-.site-footer-link:active {
-    opacity: 0.6;
 }
 
 .rectangle {

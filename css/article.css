@@ -236,7 +236,7 @@ body {
 /* Main */
 
 .site-main {
-    margin-bottom: ;
+    flex-grow: 1;
 }
 
 .site-main-container {
@@ -483,15 +483,6 @@ body {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-}
-
-.site-footer-link:hover {
-    color: #f78b3b;
-    opacity: 0.8;
-}
-
-.site-footer-link:active {
-    opacity: 0.6;
 }
 
 .rectangle {
